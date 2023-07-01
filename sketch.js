@@ -73,7 +73,6 @@ var x1Tutorial, y4Tutorial;
 
 function preload() {
   img1 = loadImage('tela.png');
-  img2 = loadImage('tela2.jpg');
   img3 = loadImage('tela3.png');
   img4 = loadImage('tela4.png');
   img5 = loadImage('tela5.png');
@@ -323,11 +322,11 @@ function drawfim(){
                      setup();
                 }
             }
-      fill("#3FC019A3");
+      fill("#3FC019");
       rect(xbutton4, ybutton4, largurabutton, alturabutton, 20);
       textSize(30);
       fill("#D6F70F");
-      text("Menu", xbutton5, 85);
+      text("Menu", xbutton4+60, 80);
       textSize(35);
       fill("#3FC019");
       rect(xbutton-30, ybutton+40, (largurabutton*2)-120, alturabutton, 20);
